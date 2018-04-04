@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+    <button bindtap='showTap'>showmodal button</button>
+    <dialog id="dialogs" title="{{title}}" content="{{content}}" cancelText="{{cancelText}}" confirmText="{{confirmText}}"></dialog>
+</view>

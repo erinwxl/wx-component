@@ -1,0 +1,11 @@
+<!--component/showmodal.wxml-->
+<view class="show-dialog" wx:if="{{isShow}}">
+    <view class="wx-dialog-box">
+        <view class="wx-dialog-title">{{title}}</view>
+        <view class="wx-dialog-content">{{content}}</view>
+        <view class="wx-dialog-footer">
+            <view class="wx-dialog-btn" bindtap="hideDialog">{{cancelText}}</view>
+            <view class="wx-dialog-btn" bindtap="sureDialog">{{confirmText}}</view>
+        </view>
+    </view>
+</view>
